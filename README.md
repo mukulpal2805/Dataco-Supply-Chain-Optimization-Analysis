@@ -5,11 +5,20 @@ This project analyzes DataCo's supply chain data to optimize inventory managemen
 
 ## Project Structure
 
-* **data/** - Raw and processed datasets
-* **scripts/** - Python scripts for data cleaning and analysis
-* **sql/** - SQL queries for data analysis
-* **dashboards/** - Power BI dashboard files
-* **README.md** - Project documentation
+### supply-chain-analysis/
+* **data/**
+ * raw/ - Original DataCo dataset
+ * processed/ - Cleaned and analyzed data
+* **scripts/**
+ * data_cleaning.py - Data preparation script
+ * inventory_analysis.py - Inventory optimization analysis 
+ * supplier_performance.py - Supplier metrics calculation
+* **sql/**
+ * inventory_queries.sql - SQL analysis queries
+* **dashboards/**
+ * supply_chain_dashboard.pbix - Power BI dashboard
+* README.md - Project documentation
+
 
 ## Key Features
 - Automated data cleaning and preprocessing
