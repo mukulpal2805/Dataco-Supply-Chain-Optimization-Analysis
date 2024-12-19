@@ -5,11 +5,11 @@ This project analyzes DataCo's supply chain data to optimize inventory managemen
 
 ## Project Structure
 
-data/ - Raw and processed datasets
-scripts/ - Python scripts for data cleaning and analysis
-sql/ - SQL queries for data analysis
-dashboards/ - Power BI dashboard files
-README.md - Project documentation
+* **data/** - Raw and processed datasets
+* **scripts/** - Python scripts for data cleaning and analysis
+* **sql/** - SQL queries for data analysis
+* **dashboards/** - Power BI dashboard files
+* **README.md** - Project documentation
 
 ## Key Features
 - Automated data cleaning and preprocessing
